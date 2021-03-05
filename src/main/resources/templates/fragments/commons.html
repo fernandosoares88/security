@@ -21,10 +21,10 @@
 			<div class="container">
 				<ul>
 					<li><a href="#" th:href="@{/}">Início</a></li>
-					<li sec:authorize="hasRole('ADMINISTRATIVO')"><a href="#" th:href="@{/administrativo}">Administrativo</a></li>
-					<li sec:authorize="hasRole('ESTOQUE')"><a href="#" th:href="@{/estoque}">Estoque</a></li>
-					<li sec:authorize="hasRole('VENDAS')"><a href="#" th:href="@{/vendas}">Vendas</a></li>
-					<li sec:authorize="!isAuthenticated()"><a href="#" th:href="@{/login}">Login</a></li>
+					<li ><a href="#" th:href="@{/administrativo}">Administrativo</a></li>
+					<li ><a href="#" th:href="@{/estoque}">Estoque</a></li>
+					<li ><a href="#" th:href="@{/vendas}">Vendas</a></li>
+<!-- 					<li ><a href="#" th:href="@{/login}">Login</a></li> -->
 				</ul>
 			</div>
 		</nav>
